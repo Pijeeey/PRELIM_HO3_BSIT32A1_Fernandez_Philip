@@ -1,0 +1,106 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  height: 60px;
+  padding: 10px 20px;
+}
+
+
+.custom-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0ff;
+}
+
+
+.neon-text {
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #0ff;
+  background: #222;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: #f0f;
+  box-shadow: 0 0 15px #f0f;
+}
+
+
+.glow-button {
+  padding: 10px 20px;
+  border: none;
+  background: #0ff;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 15px #0ff;
+}
+
+.neon-name {
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background: #222;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.todo-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #0ff;
+}
+
+
+.delete-button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.delete-button:hover {
+  background: darkred;
+  box-shadow: 0 0 10px red;
+}
